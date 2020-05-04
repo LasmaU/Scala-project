@@ -1,0 +1,31 @@
+TOP 5 book by language count:
+[eng,8908]
+[en-US,1408]
+[spa,218]
+[en-GB,214]
+[fre,144]
+[ger,99]
+
+The most thick book in given dataset was [11511,L'Échiquier du mal,Dan Simmons,3.90,2207254410,9782207254417,fre,999,63,7,6/8/2003,Denoël]
+
+Merged DF, sorted by rating:
++--------------------+-----------------+-----------+--------------+
+|               title|          authors| books_sold|average_rating|
++--------------------+-----------------+-----------+--------------+
+|The Lord of the R...|   J.R.R. Tolkien|      1.5E8|          4.50|
+|The Master and Ma...| Mikhail Bulgakov|      1.0E8|          4.30|
+|          The Hobbit|   J.R.R. Tolkien|      1.0E8|          4.27|
+|And Then There We...|  Agatha Christie|      1.0E8|          4.26|
+|Alice's Adventure...|    Lewis Carroll|      1.0E8|          4.02|
+|       The Alchemist|     Paulo Coelho|      1.5E8|          3.86|
+|   The Da Vinci Code|        Dan Brown|      8.0E7|          3.84|
++--------------------+-----------------+-----------+--------------+
+
++-------------------+-------------------+
+|min(average_rating)|max(average_rating)|
++-------------------+-------------------+
+|               3.84|               4.50|
++-------------------+-------------------+
+
+Highest score from most sold books was [The Lord of the Rings, J.R.R. Tolkien,1.5E8,4.50] 
+
